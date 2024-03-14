@@ -28,6 +28,7 @@ body {
     padding: .5em;
     position: fixed;
     top: 0;
+    width: 100%;
   }
   
   nav ul {
@@ -52,4 +53,5 @@ body {
 
   .feature {
       width: 200px;
+      float: left;
   }
