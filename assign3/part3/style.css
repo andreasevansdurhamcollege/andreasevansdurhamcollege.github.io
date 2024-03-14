@@ -88,4 +88,21 @@
     text-indent: 20px;
   }
 
+  /* links */
+
+  a {
+    color:#a66;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+    color: purple;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  
+
  
