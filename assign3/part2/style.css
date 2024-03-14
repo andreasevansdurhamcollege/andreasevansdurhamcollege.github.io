@@ -17,8 +17,11 @@ html {
   font-size: 1rem;
   color: white;
   text-shadow: 1px 1px 1px black;
-  box-shadow: 0px 5px 5px black;
+  box-shadow: 0px 4px 8px black,
+              inset 3px, 3px, 3px white,
+              inset -3px -3px -3px black;
   position: relative;
-
-
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
+
+
