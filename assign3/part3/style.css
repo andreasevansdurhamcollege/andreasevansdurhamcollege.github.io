@@ -43,3 +43,28 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  @font-face {
+    font-family: Cantata One Regular;
+    src: url(CantataOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Akira;
+    src: url(Akira.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-size: 10px;
+    font-family: 'Cantata One Regular', serif;
+  }
+
+  h1, h2 {
+    font-family: 'Akira', sans-serif;
+  }
+
+ 
