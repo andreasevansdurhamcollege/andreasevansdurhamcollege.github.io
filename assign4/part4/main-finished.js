@@ -1,5 +1,6 @@
 // set up canvas
-
+const p = document.querySelector("p");
+let count = 25;
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -139,6 +140,8 @@ class EvilCircle extends Shape {
 
         if (distance < this.size + ball.size) {
             ball.exists = false;
+            count --;
+            p.textContent = "Ball count: " + count;
         }
         }
     }
